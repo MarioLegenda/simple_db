@@ -12,3 +12,4 @@
 /home/mario/applications/database/obj/Debug/net8.0/database.pdb
 /home/mario/applications/database/obj/Debug/net8.0/database.genruntimeconfig.cache
 /home/mario/applications/database/obj/Debug/net8.0/ref/database.dll
+/home/mario/applications/database/obj/Debug/net8.0/database.sourcelink.json
