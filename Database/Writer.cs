@@ -26,7 +26,6 @@ public class Writer: IWriter, IDisposable
 
     public void Dispose()
     {
-        _stream.Dispose();
         _stream.Close();
     }
 }

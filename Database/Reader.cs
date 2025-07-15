@@ -1,6 +1,6 @@
 namespace database.Database;
 
-public class Reader: IReader
+public class Reader: IReader, IDisposable
 {
     private FileStream _stream;
     
@@ -30,5 +30,10 @@ public class Reader: IReader
         }
 
         return "";
+    }
+
+    public void Dispose()
+    {
+        _stream.Close();
     }
 }
