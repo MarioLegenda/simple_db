@@ -2,7 +2,7 @@ using System.Net.Sockets;
 
 namespace database;
 
-public interface IRunningMediator
+public interface IMediator
 {
     public void Notify(string command, NetworkStream stream);
 }

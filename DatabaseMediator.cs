@@ -5,7 +5,7 @@ using database.Validation;
 
 namespace database;
 
-public class DatabaseMediator: IRunningMediator
+public class DatabaseMediator: IMediator
 {
     private readonly Driver _driver;
     

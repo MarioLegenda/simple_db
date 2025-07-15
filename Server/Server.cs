@@ -8,10 +8,10 @@ using System.Text;
 
 public class Server
 {
-    readonly TcpListener _server;
-    private readonly IRunningMediator _mediator;
+    private readonly TcpListener _server;
+    private readonly IMediator _mediator;
 
-    public Server(int port, IRunningMediator mediator)
+    public Server(int port, IMediator mediator)
     {
         _mediator = mediator;
         _server = new TcpListener(IPAddress.Any, port);
